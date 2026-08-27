@@ -1,0 +1,67 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Arial", "sans-serif", helvetica, arial, sans-serif;
+  background-color: #FFF8FO;
+  color: #555555;
+  text-align: center;
+  margin: 20px;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #C48A8A;
+}
+
+h2 {
+  color: #8B6B4A;
+  margin-top: 2em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+  background-color: #FFFFFF;
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  width: 180px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 10em;
+}
+
+/* STYLE BUTTON */
+button { 
+  background-color: #A8B5A2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+button: hover{
+  background-color: #8F9E89;
+  }
+p{
+  color: #555555;
+  font-size: 16px;
+}
